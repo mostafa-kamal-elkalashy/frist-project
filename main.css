@@ -1,0 +1,126 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    box-sizing: border-box;
+}
+.nav{
+    width: 100%;
+    background-color: rgba(26, 20, 20, 0.712);
+    height:40px;
+    color: white;
+    position:fixed;
+
+    
+}
+ .nav .ull{
+  list-style-type: none;
+  font-size: 20px;
+}
+.nav .ull a{
+    display: block;
+    float: left;
+    padding: 10px 30px;
+    text-decoration: none;
+    color: white;
+}
+.but button{
+    float: right;
+    margin: 10px 30px 13px 30px;
+    border: none;
+    border-radius: 10px;
+    padding: 5px 10px;
+    transition: all 0.2s;
+
+}.nav.but button:hover{
+    transform: scale(1.2,1.2);
+    }
+.nav .ull a:hover{
+   color: black;
+   background-color: white;
+   border-radius: 10px;
+
+}
+.cont{
+    height: 100vh;
+    background-image: url(https://media.istockphoto.com/id/1584372441/photo/film-dust-and-noise-texture-overlay.jpg?s=1024x1024&w=is&k=20&c=Sw6AINZJr2OHMRgoeWehmo-YLbrKXNTg1o4BkVTs5_4=);
+    color: white;
+    padding: 150px 100px;
+    text-align: center;
+    box-sizing: border-box;
+    
+    
+}
+.cont h1{
+    margin: 50px;
+    font-size: 40px;
+    text-shadow: 1px 1px 8px white;
+}
+.cont p{
+    padding: 30px 100px;
+    font-size: 25px;
+}
+.sin{
+    box-sizing: border-box;
+    text-align: center;
+    padding: 100px 0px;
+
+
+}
+.sin h2{
+    font-size: 60px;
+    padding-bottom: 50px;
+    text-shadow: 0px 1px 8px black;
+}
+.sin input{
+    margin: 20px;
+    padding: 10px 80px;
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0.661);
+    color: white;
+}
+.sin label{
+    font-size: 25px;
+}
+.foot{
+    box-sizing: border-box;
+    height: 100vh;
+    background-image: url(https://images.pexels.com/photos/7485787/pexels-photo-7485787.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
+    color: black;
+    
+    
+}
+.foot h2{
+    text-align: center;
+    font-size: 50px;
+    padding: 70px;
+    color: white;
+}
+.frist,.two,.three{
+    border: 1px solid black;
+    float: left;
+    width: 25%;
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 70px;
+    background-color: white;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 2px 2px 10px white;
+    transition: all 0.2s;
+    opacity: 0.5;
+}
+.three:hover{transform: scale(1.2,1.2); opacity: 1;}
+.two:hover{transform: scale(1.2,1.2); opacity: 1;}
+.frist:hover{transform: scale(1.2,1.2); opacity: 1;}
+.foot img{
+    width: 100%;
+    height: 50%;
+    border-radius: 10px 10px 0px 0px;
+}
+.foot p,h3{
+    padding: 15px;
+}
+.foot h3{
+    text-shadow: 1px 1px 4px black;
+}
